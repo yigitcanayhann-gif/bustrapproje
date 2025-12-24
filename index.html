@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurumsal Site</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">LOGO</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Anasayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Hizmetler</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolyo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="bg-dark text-white text-center d-flex flex-column justify-content-center"
+        style="height: 90vh;">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Kurumsal Web Siteniz</h1>
+            <p class="lead">Modern – Responsive – Bootstrap ile</p>
+            <a href="#services" class="btn btn-primary btn-lg mt-3">Keşfet</a>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Hizmetlerimiz</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4 text-center">
+                    <div class="display-3">⚙️</div>
+                    <h4>Web Tasarım</h4>
+                    <p>Modern, hızlı ve şık web çözümleri.</p>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="display-3">💼</div>
+                    <h4>Kurumsal Hizmetler</h4>
+                    <p>İşletmenize özel profesyonel çözümler.</p>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="display-3">📊</div>
+                    <h4>SEO Optimizasyonu</h4>
+                    <p>Aramalarda üst sıralara çıkın.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Hakkımızda</h2>
+
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h4>Biz Kimiz?</h4>
+                    <p>Profesyonel web tasarım hizmetleri sunan bir ekibiz. Modern ve mobil uyumlu kullanıcı deneyimi
+                        odaklı işler yapıyoruz.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="https://picsum.photos/700/450" class="img-fluid rounded" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Portfolyo</h2>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="">
+                </div>
+
+                <div class="col-md-4">
+                    <img src="https://picsum.photos/400/301" class="img-fluid rounded" alt="">
+                </div>
+
+                <div class="col-md-4">
+                    <img src="https://picsum.photos/400/302" class="img-fluid rounded" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-4">İletişim</h2>
+
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h5>Adres</h5>
+                    <p>balıkesir / Türkiye</p>
+
+                    <h5>Email</h5>
+                    <p>yigitcanayhann@gail.com</p>
+
+                    <h5>Telefon</h5>
+                    <p>+90 555 555 55 55</p>
+                </div>
+
+                <div class="col-md-6">
+                    <form>
+                        <input class="form-control mb-3" placeholder="Adınız">
+                        <input class="form-control mb-3" placeholder="Email">
+                        <textarea class="form-control mb-3" rows="4" placeholder="Mesajınız"></textarea>
+                        <button class="btn btn-primary w-100">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black text-white text-center py-3">
+        © 2025 - Kurumsal Site
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
